@@ -1,0 +1,41 @@
+.user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 20px;
+    background-color: lightgrey;
+}
+.userimg{
+    
+}
+.user img {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    
+}
+.userinfo{
+    text-align: left;
+    margin-left: 30px;
+    width: 50%;
+
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(37, 37, 122);
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background-color: rgb(27, 27, 71);
+}
