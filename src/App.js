@@ -19,8 +19,10 @@ function App() {
   };
   return (
     <div className="App">
-      <h2>Users Collection</h2>
-      <hr />
+      <div className="header">
+        <h2>Users Collection</h2>
+        <hr />
+      </div>
       <div className="container">
         <div className="userdetails">
           {users.map((user) => (
